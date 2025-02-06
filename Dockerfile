@@ -1,4 +1,4 @@
-FROM hmcts/curl
+FROM hmctspublic.azurecr.io/imported/curlimages/curl
 
 RUN apk add --no-cache jq
 
